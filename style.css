@@ -8,7 +8,7 @@
     margin:auto;
 }
 
-/* banner-section */
+/* banner-section-start */
 .parent-banner {
      background-color: #070211;
     position: relative;
@@ -22,7 +22,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 25px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .child-banner-text {
@@ -45,3 +47,42 @@ h3 {
     font-size: 100px;
     font-weight: 800;
 }
+
+/*banner-section-end */
+
+/* offer-section-start */
+
+.parent-offer {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'inter';
+}
+
+.offer-title {
+    font-size: 100px;
+    font-weight: 700;
+    color: #ff0000;
+    padding: 50px;
+}
+
+.offer-text-top {
+    font-size: 25px;
+    font-weight: 500;
+    color: #ff0000;
+   
+}
+
+.offer-text-bottom {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    padding: 15px;
+
+}
+
+.child-offer-image {
+    padding: 50px;
+}
+
+/* offer-section-end */
+
