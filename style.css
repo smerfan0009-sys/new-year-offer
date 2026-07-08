@@ -10,12 +10,6 @@
 
 /* banner-section-start */
 .parent-banner {
-     background-color: #070211;
-    position: relative;
-    text-align: center;
-}
-
-.child-banner-image {
     background: linear-gradient(to top, rgba(07, 02, 11, 0), rgba(07, 02, 11, 1)), url(./images/Banner\ Image.png);
     height: 800px;
     width: 100%;
@@ -25,7 +19,11 @@
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: #070211;
+    position: relative;
+    text-align: center;
 }
+
 
 .child-banner-text {
     position: absolute;
@@ -50,7 +48,7 @@ h3 {
 
 /*banner-section-end */
 
-/* offer-section-start */
+/* 65%-off-section-start */
 
 .parent-offer {
     margin-top: 50px;
@@ -84,5 +82,59 @@ h3 {
     padding: 50px;
 }
 
-/* offer-section-end */
+/* 65%-off-section-end */
 
+/* welcome-section-start */
+
+.parent-welcome {
+    color: #ffffff;
+    background: linear-gradient(to right, rgba(07, 02, 11, 1), rgba(07, 02, 11, 0)), url(./images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    border-radius: 20px;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-title {
+    font-family: 'merriweather';
+    padding-bottom: 1.5rem;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.welcome-describtion {
+    font-family: inter;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+}
+.welcome-text {
+    /* max-width: 800px; */
+    margin-left: 150px;
+    color: white;
+}
+
+.year-image {
+    display: block;
+    margin-right: 150px;
+}
+
+.join-now-button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 650;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+/* welcome-section-end */
