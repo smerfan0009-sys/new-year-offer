@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin:auto;
+}
+
+/* banner-section */
+.parent-banner {
+    position: relative;
+    background-color: #706c6c;
+    text-align: center;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+
+
+
+.banner-image {
+    width: 100%;
+    display: block;
+}
